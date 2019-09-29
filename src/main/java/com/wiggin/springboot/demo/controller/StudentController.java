@@ -31,6 +31,7 @@ public class StudentController {
 
         st.setAddress("ddddd");
         st.setId(111);
+        System.out.println("zhe shi");
         return st;
 
 
