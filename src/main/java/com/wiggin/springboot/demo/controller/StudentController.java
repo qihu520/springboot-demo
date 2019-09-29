@@ -24,4 +24,16 @@ public class StudentController {
         System.out.println("修改123");
         return service.queryById(id);
     }
+
+    @RequestMapping(value = "/getStudent")
+    public Student getStudent() {
+        Student st = new Student();
+
+        st.setAddress("ddddd");
+        st.setId(111);
+        return st;
+
+
+
+    }
 }
